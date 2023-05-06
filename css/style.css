@@ -1,0 +1,40 @@
+:root {
+  --dark-color: #19283f;
+  --green-color: #33d1cc;
+  --red-color: #ff3150;
+  --yellow-color: #ffc400;
+}
+.main-btn {
+  color: var(--yellow-color);
+  background-color: var(--red-color);
+  padding: 0.5rem 1rem;
+}
+.main-btn:hover {
+  color: #ffc400;
+}
+.navbar {
+  background-color: var(--dark-color);
+}
+.navbar .nav-item .nav-link {
+  color: #fff;
+}
+.navbar .nav-item .nav-link.active,
+.navbar .nav-item .nav-link:hover,
+.navbar .nav-item .nav-link:focus {
+  color: var(--green-color);
+}
+.search {
+  border-left: 1px solid var(--green-color);
+}
+.navbar .search svg {
+  font-size: 20px;
+  color: var(--green-color);
+}
+.navbar .navbar-toggler {
+  color: white;
+  font-size: 25px;
+  border-color: white;
+}
+.navbar .navbar-toggler {
+  box-shadow: none;
+}
